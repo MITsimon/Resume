@@ -225,6 +225,10 @@ a:hover {
     float: left;
 }
 
+.footer h1 {
+    font-size: 25px;
+}
+
 .footer img {
     margin-bottom: 5px;
 }
@@ -238,16 +242,15 @@ a:hover {
 }
 
 .aboutTitle {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     font-size: 30px;
     color: #616fba;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .about {
     height: 500px;
-    border: black solid 1px;
     display: flex;
     justify-content: center;
 }
