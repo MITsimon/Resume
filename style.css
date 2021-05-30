@@ -3,93 +3,267 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-.backg{
-    height: 400px;
-    background:#fff url(img/img-headerShape.png) no-repeat ;
-    background-size: 2000px 400px;
-    background-attachment:fixed;  
-    
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
-.header{
-    position: absolute; 
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.backg {
+    height: 400px;
+    background: #fff url(img/img-headerShape.png) no-repeat;
+    background-size: 2000px 400px;
+    background-attachment: fixed;
+}
+
+.header {
+    position: absolute;
     top: 120PX;
     left: 300PX;
-    
 }
-.header_inform{ 
+
+.header_inform {
     margin-right: 20px;
     float: right;
 }
-.me{
+
+.me {
     height: 30%;
     width: 30%;
-    border-radius:99999px
+    border-radius: 99999px
 }
-.inform{
+
+.inform {
     white-space: nowrap;
-   padding-bottom: 30px;
-  
-   
-}   
-.inform span{
+    padding-bottom: 30px;
+}
+
+.inform span {
     font-size: 30px;
-    font-family:monospace font;
+    font-family: monospace font;
     color: white;
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
 }
-a:hover{
-    text-decoration:underline;
+
+a:hover {
+    text-decoration: underline;
 }
-.center{
+
+.skillTitle {
     margin-top: 50px;
     text-align: center;
     font-size: 30px;
     color: #616fba;
-   
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 12 00px;
+    height: 300px;
+}
+
+.footer .skillO {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-bottom: #F58D23 solid 3px;
+    float: left;
+}
+
+.footer .skillG {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border-bottom: #539E43 solid 3px;
+    float: left;
+}
+
+.footer .skillP {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border-bottom: #6762A6 solid 3px;
+    float: left;
+}
+
+.footer img {
+    margin-bottom: 5px;
+}
+
+.footer img.Dev {
+    margin-bottom: 13px;
+}
+
+.footer h1 {
+    margin-bottom: 10px;
+}
+
+.aboutTitle {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #616fba;
+    margin-bottom: 50px;
+}
+
+.about {
+    height: 500px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.abpic {
+    float: left;
+}
+
+.abpic img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-right: 100px;
+}
+
+.abtext {
+    float: left;
+    margin-top: 100px;
+    color: #4A4A4A;
 }
