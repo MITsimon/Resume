@@ -189,15 +189,13 @@ a:hover {
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
-    width: 12 00px;
+    width: 1200px;
     height: 300px;
 }
 
 .footer .skillO {
-    margin-right: 10px;
-    margin-left: 10px;
     text-align: center;
     height: 200px;
     width: 200px;
@@ -207,8 +205,6 @@ a:hover {
 
 .footer .skillG {
     text-align: center;
-    margin-right: 10px;
-    margin-left: 10px;
     height: 200px;
     width: 200px;
     border-bottom: #539E43 solid 3px;
@@ -217,8 +213,6 @@ a:hover {
 
 .footer .skillP {
     text-align: center;
-    margin-right: 10px;
-    margin-left: 10px;
     height: 200px;
     width: 200px;
     border-bottom: #6762A6 solid 3px;
