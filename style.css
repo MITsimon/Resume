@@ -264,3 +264,8 @@ a:hover {
     margin-top: 100px;
     color: #4A4A4A;
 }
+
+.abtext p {
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
